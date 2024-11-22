@@ -5,8 +5,8 @@ import React from 'react';
 
 const FeatureList = [
   {
-    title: 'MB28',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'MB 28',
+    image: require('@site/static/img/docusaurus.png').default,
     description: (
       <>
         Docusaurus was designed from the ground up to be easily installed and
@@ -17,7 +17,7 @@ const FeatureList = [
   },
   {
     title: 'MB Trade',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    image: require('@site/static/img/docusaurus.png').default,
     description: (
       <>
         Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
@@ -28,7 +28,7 @@ const FeatureList = [
   },
   {
     title: 'Fibo R 28',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    image: require('@site/static/img/docusaurus.png').default,
     description: (
       <>
         Extend or customize your website layout by reusing React. Docusaurus can
@@ -39,7 +39,7 @@ const FeatureList = [
   },
   {
     title: 'Retracement 28',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    image: require('@site/static/img/docusaurus.png').default,
     description: (
       <>
       This is Retracement 28
@@ -49,7 +49,7 @@ const FeatureList = [
   },
   {
     title: 'Retracement EA',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    image: require('@site/static/img/docusaurus.png').default,
     description:(
       <>
       This is Retracement EA
@@ -59,12 +59,12 @@ const FeatureList = [
   },
 ];
 
-function Feature({Svg, title, description, link}) {
+function Feature({image, title, description, link}) {
   return (
     <div className={clsx('col col--4')}>
       <a href={link}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <img src={image} alt={title} role="img" />
       </div>
       </a>
       <div className="text--center padding-horiz--md">
