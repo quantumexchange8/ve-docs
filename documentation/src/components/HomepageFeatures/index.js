@@ -6,53 +6,50 @@ import React from 'react';
 const FeatureList = [
   {
     title: 'MB 28',
-    image: require('@site/static/img/docusaurus.png').default,
+    image: require('@site/static/img/MB28.png').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Monday Blue Strategy
       </>
     ),
     link: '/docs/mb_28/versions/version_1',
   },
   {
     title: 'MB Trade',
-    image: require('@site/static/img/docusaurus.png').default,
+    image: require('@site/static/img/MB-Trade.png').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Easy to place order from MB Trade
       </>
     ),
     link: '/docs/mb_trade/versions/version_1',
   },
   {
     title: 'Fibo R 28',
-    image: require('@site/static/img/docusaurus.png').default,
+    image: require('@site/static/img/FiboR28.png').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Fibonacci Retracement 反轉的小插曲
       </>
     ),
     link: '/docs/fibo_r_28/versions/version_1',
   },
   {
     title: 'Retracement 28',
-    image: require('@site/static/img/docusaurus.png').default,
+    image: require('@site/static/img/Retracement28.png').default,
     description: (
       <>
-      This is Retracement 28
+      Retracement Tracker 回調追蹤器
       </>
     ),
     link: '/docs/retracement_28/versions/version_1',
   },
   {
     title: 'Retracement EA',
-    image: require('@site/static/img/docusaurus.png').default,
+    image: require('@site/static/img/RetracementEA.png').default,
     description:(
       <>
-      This is Retracement EA
+      Auto trading by Retracement EA 
       </>
     ),
     link: '/docs/retracement_ea/versions/version_1',

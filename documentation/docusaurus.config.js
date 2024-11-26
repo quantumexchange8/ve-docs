@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Documentation',
-  tagline: 'Something',
+  title: 'Value Envision',
+  tagline: 'Documentation Guide and Version Release',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -90,10 +90,10 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Documentation',
+        title: 'Value Envision Documentation',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Value Envision',
+          src: 'img/VE_logo_only.png',
         },
         // items: [
           // {
@@ -122,7 +122,7 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Sitemap',
             items: [
               {
                 label: 'MB 28',
@@ -177,7 +177,7 @@ const config = {
           //   ],
           // },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Value Envision, Inc. Powered by Current Tech`,
       },
       prism: {
         theme: prismThemes.github,
