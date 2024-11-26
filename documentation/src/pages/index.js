@@ -33,7 +33,7 @@ export default function Home() {
   return (
     <Layout
       title="Introduction"
-      description="EDUCATION CONSULTANCY AND TRAINING; TO INVEST IN LOCAL AND FOREIGN EQUITY STOCKS. <head />">
+      description="EDUCATION CONSULTANCY AND TRAINING; TO INVEST IN LOCAL AND FOREIGN EQUITY STOCKS.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
